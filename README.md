@@ -51,7 +51,7 @@
 </div>
 
 <ol>
-    <li>Клонируйте репозиторий любым удобным способом. Если у вас установлен git, скопируйте в консоль <code>git clone https://github.com/cjybxrf/wb-description-creator.git</code></li>
+    <li>Клонируйте репозиторий любым удобным способом. Если у вас установлен git, скопируйте в консоль <br><code>git clone https://github.com/cjybxrf/wb-description-creator.git</code></li>
     <li>Запустите скрипт установки <code>start build.cmd</code></li>
     <li>Заполните файл <code>.env</code></li>
     <li>Запустите завершающий скрипт установки <code>final build.cmd</code></li>
