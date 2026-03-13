@@ -7,7 +7,7 @@ echo [1/1] Создание DES_WB.exe файла
 echo.
 
 call venv\Scripts\activate
-pyinstaller --onefile --icon=app_icon.ico --name=DES_WB --add-data "app_icon.ico;." --add-data ".env;." gui.py
+pyinstaller --onefile --icon=app_icon.ico --name=DES_WB --add-data "app_icon.ico;." --add-data ".env;." src/gui.py
 
 echo. 
 
