@@ -20,7 +20,7 @@ def my_scraper(query, city):
             ]
         
         geolocation_local = ''
-        url = f'https://www.wildberries.ru/catalog/0/search.aspx?search={query}'
+        url = f'https://www.site_for_example.ru/catalog/0/search.aspx?search={query}'
         stop_request = False
         old_cards = 0
         count_to_exit = 0
