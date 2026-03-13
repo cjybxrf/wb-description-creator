@@ -1,25 +1,14 @@
-<div style='
-width: 900px; 
-border: dashed; 
-display: flex; 
-justify-content: center; 
-align-items: center; 
-padding-left: 15px;
-padding-right: 11px; 
-padding-top: 13px; 
-margin-bottom: 25px;
-border-radius: 7px;
-background-color: #F5F5DC;'>
-    <p style='font-size: 15px; color: #2D4031;'>
-        <strong style='color: #800810;'>Disclaimer:</strong> данный проект разработан исключительно в образовательных и демонстрационных целях как часть портфолио. Автор не несет ответственности за нецелевое использование скрипта или нарушение условий пользования сторонних ресурсов.
+<div>
+    <p>
+        <strong>Disclaimer:</strong> данный проект разработан исключительно в образовательных и демонстрационных целях как часть портфолио. Автор не несет ответственности за нецелевое использование скрипта или нарушение условий пользования сторонних ресурсов.
     </p>
 </div>
 
-<h1 style='border-bottom: none; color: #F2E9E4'>wb description creator</h1>
+<h1>wb description creator</h1>
 
 <h2>Описание</h2> 
-<p style='font-size: 16px;'>
-    Программа генерирует описание карточки товара, на основе взятых ключей у топ 5 карточек по количеству оценок покупателей. <br>Находит эти карточки по поисковому запросу пользователя и по выбранному городу. Сгенерированное описание выгружает в файл description.txt.
+<p>
+    Программа генерирует описание карточки товара, на основе взятых ключей у топ 5 карточек по количеству оценок покупателей. Находит эти карточки по поисковому запросу пользователя и по выбранному городу. Сгенерированное описание выгружает в файл description.txt.
 </p>
 
 <h2>Стек</h2>
@@ -55,19 +44,9 @@ background-color: #F5F5DC;'>
 </p>
 
 <h2>Установка</h2>
-<div style='
-width: 560px;
-display: flex; 
-justify-content: center; 
-align-items: center;
-background-color: #FFFFF0;
-border-radius: 7px;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-margin-bottom: 30px;'>
-    <p style='font-size: 15px; color: #333333;'>
-        <strong>Примечание:</strong> для работы программы вам понадобиться API ключ (API_KEY) и идентификатора каталога (FOLDER_ID). Получить их вы можете на сайте <a href='https://aistudio.yandex.ru/ru'>Яндекса</a>. После, их нужно вписать в соответствующие поля в файле <a href='.env.example'>.env</a>.
+<div>
+    <p>
+        <strong>Примечание:</strong> для работы программы вам понадобиться API ключ (API_KEY) и идентификатора каталога (FOLDER_ID). Получить их вы можете на сайте <a href='https://aistudio.yandex.ru/ru' target='_blank'>Яндекса</a>. После, их нужно вписать в соответствующие поля в файле <a href='.env.example' target='_blank'>.env</a>.
     </p>
 </div>
 
